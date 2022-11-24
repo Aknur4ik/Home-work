@@ -4,7 +4,7 @@ body {
 }
 
 .cv {
-  background: linear-gradient(aquamarine, pink, black);
+  background: linear-gradient(aquamarine, pink, darkorange);
 }
 
 .main_page {
@@ -35,4 +35,8 @@ input {
 
 .photo {
   border-radius: 10px;
+}
+
+button {
+  background: palevioletred;
 }
