@@ -4,17 +4,24 @@ body {
 }
 
 .cv {
-  background: linear-gradient(aquamarine, pink, darkorange);
+  background: linear-gradient(black, pink, darkorange);
 }
 
 .main_page {
   background-color: aquamarine;
-}
+  background-image: url('https://phonoteka.org/uploads/posts/2021-12/1640054420_1-phonoteka-org-p-ochen-krasivii-anime-fon-krasivo-1.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-style: italic;
+  }
 
 h1 {
   font-size: 3rem;
   font-weight: 200;
-  color: Blue;
+  color: white;
 }
 p {
   font-size: 24px;
@@ -25,12 +32,37 @@ h2 {
   text-decoration: underline;
 }
 
-.link {
-  margin-bottom: 20px;
+.link li {
+  font-size: 30px;
+  display:inline-block;
+  margin-right: 25px;
+  
+}
+
+.link li a {
+  color: aqua;
+}
+
+.link li a:hover {
+   color: violet;
 }
 
 input {
   margin: 10px;
+  background-color: white;
+  padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 5px;
+    width: 10%;
+    border: 2px solid #d7d7d7;
+
+  
+}
+
+select {
+  background-color: white;
 }
 
 .photo {
@@ -40,3 +72,27 @@ input {
 button {
   background: palevioletred;
 }
+
+label {
+  color: white;
+  text-decoration: underline;
+}
+
+.top {
+  background-color: black;
+}
+
+.contacts ul li  {
+   font-size: 25px;
+   color: white;
+   margin: 10px 0 10px 0;
+   
+  
+
+
+}
+
+
+
+
+
