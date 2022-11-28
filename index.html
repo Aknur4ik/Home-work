@@ -16,25 +16,65 @@
     </div>
     </header>
     <form action="cv.html">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" />
+
+      <div class="cell">
+        <div class="label-1">
+          <label for="name">Your Name:</label>
+        </div>
+        <div>
+          <input type="text" id="name" />
+        </div>
+      </div>
+      
       <br />
-      <label for="surname">Your Surname:</label>
-      <input type="text" id="surname" />
+
+      <div class="cell">
+        <div class="label-1">
+          <!-- сюда лейбл -->
+          <label class="label-1" for="surname">Your Surname:</label>
+        </div>
+        <div>
+          <!-- сюда вставить инпут -->
+          <input type="text" id="surname" />
+        </div>
+      </div>
+
+      <div class="cell">
+        <div class="label-1">
+          <!-- сюда лейбл -->
+          <label class="label-1" for="email">Email:</label>
+        </div>
+        <div>
+          <!-- сюда вставить инпут -->
+          <input type="email" id="email" />
+        </div>
+      </div>
+
+      <div class="cell">
+        <div class="label-1">
+          <!-- сюда лейбл -->
+          <label class="label-1" for="password">Password:</label>
+        </div>
+        <div>
+          <!-- сюда вставить инпут -->
+          <input type="password" id="password" />
+        </div>
+      </div>
+   
+      
+      
+
+      
+      
+      
       <br />
-      <label for="email">Email:</label>
-      <input type="email" id="email" />
+      <input class="input-date" type="date" />
       <br />
-      <label for="password">Password:</label>
-      <input type="password" id="password" />
-      <br />
-      <input type="date" />
-      <br />
-      <input type="submit" value="Send" />
+      <input class="input-send" type="submit" value="Send" />
       </div>
       <br />
 
-      <select name="Order" id="Order">
+      <select class="select" name="Order" id="Order">
         <option value="">Select your group</option>
         <option value="F4">F4 Monday Thursday</option>
         <option value="F5">F5 Tuesday Friday</option>
